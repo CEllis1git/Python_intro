@@ -1,0 +1,10 @@
+name = input("What is your name?")
+print("Hi there, " + name)
+print(name + " is a great name.")
+print("Hi " + name + " ! Let me make sure your name is " + name + "?")
+email = input("Please tell me your email: ")
+print("Thanks, " + name + ". Your email is " + email)
+age = int(input("How old are you? "))
+print("You are " + str(age) + " years old.")
+print("To summarize: Your are " + name + " and you are " + str(age) + ". I can reach you at " + email + ".")
+
